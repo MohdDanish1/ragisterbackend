@@ -1,7 +1,7 @@
 import { userModal } from "../Modals/user.js";
 export const userRegister = async (req, res) => {
   try {
-    console.log(req.body);
+    // console.log(req.body);
     const { name, email, phone, message } = req.body;
 
     //Authentication
